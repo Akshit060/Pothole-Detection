@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model weights and artifacts
+saved_models/
+*.keras
+*.h5
+*.ckpt
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
